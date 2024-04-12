@@ -1,18 +1,19 @@
-/* Reset default styles */
 body,
-h1,
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
 p {
   margin: 0;
   padding: 0;
 }
 
-/* Set default font and background color */
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
+  font-size: 25px;
 }
 
-/* Style the class work */
 .work {
   background-color: #fff;
   padding: 20px;
@@ -24,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* Style the header */
+
 header {
   background-color: #333;
   color: #fff;
@@ -32,19 +33,17 @@ header {
   text-align: center;
 }
 
-/* Style the navigation */
 nav {
   display: flex;
   justify-content: flex-end;
+  color: orangered;
   padding: 10px;
 }
 
-/* Style the main content */
 main {
   margin: 20px;
 }
 
-/* Style the footer */
 footer {
   background-color: #333;
   color: #fff;
